@@ -10,7 +10,7 @@ const Banner = () => {
             <div className='container mx-auto grid  grid-cols-2 gap-60 my-20 justify-center items-center'>
                 <div className='space-y-4   '>
                     <p className='btn p-4 rounded-full bg-[#E1E7FF] text-[#4F39F6]'> <img src="" alt=""/> New:AI-powered Tools Available</p>
-                    <h1 className='text-7 font-bold'>Supercharge Your Digital Workflow</h1>
+                    <h1 className='text-7xl font-bold'>Supercharge Your Digital Workflow</h1>
                        <p className='text-[#627382]'>Access premium AI tools, design assets, templates, and productivity <br />
                         software—all in one place. Start creating faster today. <br />
 
