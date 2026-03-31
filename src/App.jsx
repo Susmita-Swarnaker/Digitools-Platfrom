@@ -5,6 +5,8 @@ import Banner from './Components/Navbar/Banner/Banner'
 import Static from './Components/Static/Static'
 import Primiums from "./Components/Primium/Primiums"
 import Step from './Components/Step/Step'
+import Pricing from './Components/Pricing/Pricing'
+import Footer from './Components/Footer/Footer'
 
 
 
@@ -34,6 +36,9 @@ function App() {
 
 
      <Step></Step> 
+
+     <Pricing></Pricing>
+     <Footer></Footer>
 
     </>
   )
