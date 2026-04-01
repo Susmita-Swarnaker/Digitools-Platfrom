@@ -6,8 +6,8 @@ import icons from "../../../assets/play.png"
 
 const Banner = () => {
     return (
-        <div>
-            <div className='container mx-auto grid  grid-cols-2 gap-60 my-20 justify-center items-center'>
+        <div className='container mx-auto '>
+            <div className='grid grid-cols-1 p-3 md:grid-cols-2 gap-10 lg:gap-60 my-10  items-center'>
                 <div className='space-y-4   '>
                     <p className='btn p-4 rounded-full bg-[#E1E7FF] text-[#4F39F6]'> <img src="" alt=""/> New:AI-powered Tools Available</p>
                     <h1 className='text-7xl font-bold'>Supercharge Your Digital Workflow</h1>

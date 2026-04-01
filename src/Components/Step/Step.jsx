@@ -12,7 +12,7 @@ const Step = () => {
                   <h2  className='text-5xl font-bold pt-20 '>Get Started in 3 Steps</h2>
                 <p className='text-[#627382]'>Start using premium digital tools in minutes, not hours.</p>
               </div>
-              <div className='grid grid-cols-3 gap-4 pt-20 pb-20'>
+              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pt-20 pb-20'>
                 <div className='relative border border-gray-100 rounded-xl p-20 bg-[#FFFFFF]'>
                 
                   <div className='text-center '>
