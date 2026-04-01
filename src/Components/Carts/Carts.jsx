@@ -1,4 +1,5 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const Carts = ({carts ,setCarts}) => {
 
@@ -8,12 +9,14 @@ const Carts = ({carts ,setCarts}) => {
 
     const handleTotal = ()=>{
         setCarts([])
+        toast.success("Peyment successfully")
     }
 
     const handleClicked =(cart)=>{
         const filtered = carts.filter(c => c.id !== cart.id)
         console.log(filtered);
         setCarts(filtered)
+        toast.success("Delete")
 
     }
     return (
@@ -26,10 +29,10 @@ const Carts = ({carts ,setCarts}) => {
 
                 </div>
 
-                <h1>Your card</h1>
+                <h1 className='border'>Your card</h1>
 
                 {
-                    carts.length === 0 ?<p className='fon-bold text-2xl text-center'>Cart is Empty</p> : <>
+                    carts.length === 0 ?<p className='fon-bold text-2xl text-center border border-none'>Cart is Empty</p> : <>
                                     <div className='space-y-4'>
                     {
                         carts.map(cart => <div key={cart.id}>

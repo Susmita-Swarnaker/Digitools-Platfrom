@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { HiCheck } from "react-icons/hi";
 import Carts from '../Carts/Carts';
+import { toast } from 'react-toastify';
 
 
 
@@ -15,6 +16,7 @@ const Primiumcard = ({primium ,carts,setCarts}) => {
     const handleEvents =()=> {
         setBuyNow(true)
         setCarts([...carts, primium])
+        toast.success("added")
     }
     return (
         <div className='p-4 border border-gray-200 rounded-xl'>

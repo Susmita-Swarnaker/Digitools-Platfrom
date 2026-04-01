@@ -21,7 +21,7 @@ const Primiums = ({dataPromise ,carts,setCarts}) => {
 
                 <div className=' my-4'>
                     <button onClick={()=> setSelceted("products")} className={`btn font-bold text-xl rounded-full p-6 ${selceted ==="products" ? "bg-linear-to-r from-[#4F39F6] to-[#9514F1] text-white" : "bg-white"}`}>Products</button>
-                    <button onClick={()=> setSelceted("cart")} className={`btn font-bold text-xl rounded-full p-6 ${selceted ==="cart" ? "bg-linear-to-r from-[#4F39F6] to-[#9514F1] text-white" : "bg-white"}`}>{Cart}</button>
+                    <button onClick={()=> setSelceted("cart")} className={`btn font-bold text-xl rounded-full p-6 ${selceted ==="cart" ? "bg-linear-to-r from-[#4F39F6] to-[#9514F1] text-white" : "bg-white"}`}>Cart</button>
                 </div>
                
 
