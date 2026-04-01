@@ -36,7 +36,7 @@ function App() {
     <Static></Static>
     <Primiums dataPromise={dataPromise}  carts={carts} setCarts={setCarts} ></Primiums>
    
-<Carts carts={carts} setCarts={setCarts}></Carts>
+
 
      <Step></Step> 
 

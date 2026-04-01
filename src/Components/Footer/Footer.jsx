@@ -60,18 +60,17 @@ const Footer = () => {
                             
                             
                             </div>
+                            <hr className='w-[1400px] h-[1px] text-gray-800 mb-20' />
                           
-                              <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-6">
-                    <p className="text-gray-500 text-sm">
-                        © 2026 Digitools. All rights reserved.
-                    </p>
-
-                    <div className="flex gap-8 text-sm text-gray-500">
-                        <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-                        <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
-                        <a href="#" className="hover:text-white transition-colors">Cookies</a>
+                    <div className='flex justify-between items-center containier mx-auto'>
+                        <p className='text-white'>© 2026 Digitools. All rights reserved.</p>
+                        <div className='text-white'>
+                            <a href="">Privacy Polic</a>
+                            <a href="">Terms of Service</a>
+                            <a href=""> Cookies</a>
+                        </div>
                     </div>
-                </div>       
+     
 
 
  
