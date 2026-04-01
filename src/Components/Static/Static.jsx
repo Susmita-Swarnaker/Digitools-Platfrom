@@ -4,8 +4,8 @@ const Static = () => {
     return (
         <div>
           <div className='bg-linear-to-r from-[#4F39F7F6] to-[#9514F1]'>
-          <div className='container mx-auto grid grid-cols-3 p-5 text-center'>
-              <div>
+          <div className='container mx-auto grid grid-cols-3 p-5 text-center py-15'>
+            <div>
            <h1 className='text-6xl font-bold text-white'>50K+</h1>
            <p className='text-2xl font-medium text-white'>Active users</p>
            
@@ -23,7 +23,8 @@ const Static = () => {
           </div>
           </div>
         </div>
-    );
+        
+            );
 };
 
 export default Static;

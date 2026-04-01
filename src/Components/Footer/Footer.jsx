@@ -60,18 +60,18 @@ const Footer = () => {
                             
                             
                             </div>
-                            <div>
-                                 <hr className="h-[1px] w-[1380px] bg-gray-600 border-0 my-8" /> 
-                            <div>
+                          
+                              <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-6">
+                    <p className="text-gray-500 text-sm">
+                        © 2026 Digitools. All rights reserved.
+                    </p>
 
-                                <h1>© 2026 Digitools. All rights reserved.</h1>
-                                <div>
-                                    <a href="">Privacy Policy</a>
-                                    <a href="">Terms of Science</a>
-                                    <a href="">Cookies</a>
-                                </div>
-                            </div>
-                             </div>         
+                    <div className="flex gap-8 text-sm text-gray-500">
+                        <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
+                        <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+                        <a href="#" className="hover:text-white transition-colors">Cookies</a>
+                    </div>
+                </div>       
 
 
  

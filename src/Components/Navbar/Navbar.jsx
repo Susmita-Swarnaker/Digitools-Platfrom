@@ -4,9 +4,9 @@ import imge from  "../../assets/products/shopping-cart.png";
 const Navbar = () => {
     return (
         <div>
-            <div className=' container mx-auto my-5 grid grid-cols-3 items-center'>
+            <div className=' container mx-auto my-5 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 items-center'>
                 <h1 className='text-3xl font-bold bg-linear-to-r from-[#4F39F7F6] to-[#9514F1] bg-clip-text text-transparent'>DigiTools</h1>
-               <ul className='flex gap-4'>
+               <ul className='md:flex gap-4 '>
                 <li>Products</li>
                 <li>Features</li>
                 <li>Pricing</li>

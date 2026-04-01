@@ -8,7 +8,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["100+ templates", "ATS optimization", "Export to PDF"],
-    "icon": "FaFileAlt"
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/45/dc/5b/45dc5b91-ab57-1f6c-7f8e-3c6f0adda758/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1200x630wa.png"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["Drag & drop editor", "Custom domain", "SEO optimized"],
-    "icon": "FaGlobe"
+    "icon": "https://img.freepik.com/free-vector/colorful-letter-gradient-logo-design_474888-2309.jpg?semt=ais_incoming&w=740&q=80"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "tag": "new",
     "tagType": "new",
     "features": ["Application tracking", "Status updates", "Reminders"],
-    "icon": "FaBriefcase"
+    "icon": "https://img.freepik.com/free-vector/users-group-magnifying-glass_78370-6977.jpg?semt=ais_hybrid&w=740&q=80"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["AI writing", "Multiple formats", "Instant download"],
-    "icon": "FaEnvelope"
+    "icon": "https://store-images.s-microsoft.com/image/apps.1807.13954429861685668.0498c3e0-cf3c-41d2-9bd6-999343f7d242.6c76085a-e3ab-40f8-95cd-1d30278aef76"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["Mock interviews", "Common Q&A", "Expert tips"],
-    "icon": "FaUserTie"
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKdC5xNBXG0YDeCWsyO7-ZXgeSOz-V4m7kOA&s"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "tag": "new",
     "tagType": "new",
     "features": ["Skill tests", "Instant results", "Progress tracking"],
-    "icon": "FaChartBar"
+    "icon": "https://png.pngtree.com/png-vector/20230428/ourmid/pngtree-assess-line-icon-vector-png-image_6739711.png"
   }
 
 ]
